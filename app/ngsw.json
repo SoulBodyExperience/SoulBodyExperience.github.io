@@ -1,0 +1,62 @@
+{
+  "configVersion": 1,
+  "timestamp": 1785814827649,
+  "index": "/app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/app/favicon.png",
+        "/app/icon-192.png",
+        "/app/icon-192transparent.png",
+        "/app/icon-512.png",
+        "/app/icon-512Original.png",
+        "/app/loading.gif"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/app/favicon.png": "c401b4782e49f63bce1f2d76a0557a72fb46ba17",
+    "/app/icon-192.png": "82c76f0be6e1eb549fd9e351b7483d84f398bfef",
+    "/app/icon-192transparent.png": "d72747cea2abf5025aa884d83ec1566b7de7c673",
+    "/app/icon-512.png": "8c2232049cec795c5050c95c2752c237cc768249",
+    "/app/icon-512Original.png": "e50f8c00712997751d6695f4ac4174f8eb31c89f",
+    "/app/loading.gif": "fe006de0f75bbb3aa8aa9ba415885401160b307c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
